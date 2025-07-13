@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./lib/bootstrap-5.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card mt-3">
+        <div class="card-header">ArcGIS Layer Deccision Tree</div>
+        <div class="card-body">
+          <form>
+            <div class="row mb-3">
+              <label for="url" class="col-sm-2 col-form-label">Url: </label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="url" />
+              </div>
+            </div>
+          </form>
+          <button class="btn btn-primary" id="submit">Submit</button>
+        </div>
+      </div>
+      <div class="card mt-3">
+        <div class="card-header">Result</div>
+        <div class="card-body" id="result"></div>
+      </div>
+    </div>
+    <script src="./lib/bootstrap-5.3.7/js/bootstrap.min.js"></script>
+    <!-- <script src="https://js.arcgis.com/4.33"></script> -->
+    <script src="./lib/arcgis-core-4.33/init.js"></script>
+    <script src="./assets/js/main.js" type="module"></script>
+  </body>
+</html>
