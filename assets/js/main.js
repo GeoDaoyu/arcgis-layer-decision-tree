@@ -20,6 +20,7 @@ function setResult(layerName) {
 }
 
 $("#result").hide();
+
 $("#form").on("submit", async function (e) {
   e.preventDefault();
   $("#result").fadeOut("slow");
@@ -27,4 +28,14 @@ $("#form").on("submit", async function (e) {
   const layerName = await getLayerName(url);
   setResult(layerName);
   $("#result").fadeIn("slow");
+});
+
+$(".copy").on("click", function () {
+  const text = this.getAttribute("data-text");
+  $("#url").val(text);
+});
+
+$(".goto").on("click", function () {
+  const text = this.getAttribute("data-text");
+  window.open(text, "_blank");
 });
