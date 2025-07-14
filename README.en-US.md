@@ -13,7 +13,7 @@ An interactive tool to help developers quickly determine which Layer type to use
 ## 🚀How to Use
 
 Live demo deployed on GitHub Pages:
-https://yourusername.github.io/repo-name
+[https://geodaoyu.github.io/arcgis-layer-decision-tree/](https://geodaoyu.github.io/arcgis-layer-decision-tree/)
 
 Simply enter your ArcGIS service URL (e.g., `https://services.arcgis.com/.../MapServer`) and follow the interactive guide.
 

@@ -13,7 +13,7 @@
 ## 🚀如何使用
 
 直接访问 GitHub Pages 部署的版本:  
-[https://yourusername.github.io/repo-name](https://yourusername.github.io/repo-name)
+[https://geodaoyu.github.io/arcgis-layer-decision-tree/](https://geodaoyu.github.io/arcgis-layer-decision-tree/)
 
 输入您的 ArcGIS 服务 URL (如: `https://services.arcgis.com/.../MapServer`)
 
