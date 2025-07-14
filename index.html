@@ -7,8 +7,18 @@
     <link href="./lib/bootstrap-5.3.7/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <div class="card mt-5">
+    <div class="container mt-5">
+      <div class="row g-0">
+        <div class="col-sm-6 col-md-8 text-secondary">
+          Find the correct layer type in ArcGIS JS API
+        </div>
+        <div class="col-6 col-md-4 text-end">
+          <a class="link-opacity-75" href="./support-list.html">
+            Support Layer Type List
+          </a>
+        </div>
+      </div>
+      <div class="card mt-3">
         <div class="card-header">ArcGIS Layer Decision Tree</div>
         <div class="card-body">
           <form id="form">
@@ -60,11 +70,18 @@
                 </a>
               </div>
             </div>
-            <button class="btn btn-primary" id="submit">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button class="btn btn-primary d-none" type="button" disabled>
+              <span
+                class="spinner-border spinner-border-sm"
+                aria-hidden="true"
+              ></span>
+              <span role="status">Loading...</span>
+            </button>
           </form>
         </div>
       </div>
-      <div class="card mt-3">
+      <div class="card mt-3 d-none" id="result-card">
         <div class="card-body" id="result"></div>
       </div>
     </div>

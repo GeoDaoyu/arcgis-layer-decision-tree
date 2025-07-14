@@ -13,15 +13,15 @@ function setResult(layerName) {
     .append($("<p>").html("You want the ").append($link).append("."));
 }
 
-$("#result").hide();
-
 $("#form").on("submit", async function (e) {
   e.preventDefault();
-  $("#result").fadeOut("slow");
+  $("button").toggleClass("d-none");
   const url = $("#url").val();
   const layerName = await getLayerName(url);
   setResult(layerName);
+  $("#result-card").removeClass("d-none");
   $("#result").fadeIn("slow");
+  $("button").toggleClass("d-none");
 });
 
 $(".copy").on("click", function () {

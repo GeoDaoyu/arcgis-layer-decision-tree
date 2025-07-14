@@ -7,12 +7,19 @@
     <link href="./lib/bootstrap-5.3.7/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <div class="card mt-5">
+    <div class="container mt-5">
+      <div class="row g-0">
+        <div class="col-sm-6 col-md-8 text-secondary">
+          Find the correct layer type in ArcGIS JS API
+        </div>
+        <div class="col-6 col-md-4 text-end">
+          <a class="link-opacity-75" href="./index.html">Back</a>
+        </div>
+      </div>
+      <div class="card mt-3">
         <div class="card-header">Support Layer Type List</div>
         <div class="card-body">
-          <ul class="list-group list-group-flush" id="list">
-          </ul>
+          <ul class="list-group list-group-flush" id="list"></ul>
           <div class="spinner-border" role="status" id="loading">
             <span class="visually-hidden">Loading...</span>
           </div>
