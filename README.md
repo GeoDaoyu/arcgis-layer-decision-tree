@@ -1,8 +1,10 @@
-# ArcGIS Layer 决策树
+# ArcGIS 图层决策树
 
 [English](./README.en-US.md) | 简体中文
 
 一个交互式工具，帮助开发者快速确定在 ArcGIS JS API 中使用哪种 Layer 类型来加载 GIS 服务。
+
+![screenshot](assets/images/screenshot.png)
 
 ## ✨ 功能特点
 

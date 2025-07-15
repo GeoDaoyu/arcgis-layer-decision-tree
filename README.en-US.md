@@ -4,6 +4,8 @@ English | [简体中文](./README.md)
 
 An interactive tool to help developers quickly determine which Layer type to use in ArcGIS JS API for loading GIS services.
 
+![screenshot](assets/images/screenshot.png)
+
 ## ✨ Features
 
 - 🧭 Intelligent service type detection
