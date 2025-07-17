@@ -10,14 +10,25 @@ An interactive tool to help developers quickly determine which Layer type to use
 
 - 🧭 Intelligent service type detection
 - 🌳 Visual decision tree guidance
-- 💻 Official documentation links
+- 📖 Official documentation links
+- 💻 Support internal network environment
 
 ## 🚀How to Use
+
+**Online**
 
 Live demo deployed on GitHub Pages:
 [https://geodaoyu.github.io/arcgis-layer-decision-tree/](https://geodaoyu.github.io/arcgis-layer-decision-tree/)
 
 Simply enter your ArcGIS service URL (e.g., `https://services.arcgis.com/.../MapServer`) and follow the interactive guide.
+
+**Offline**
+
+Support internal network environment after deploying by yourself.
+
+## 🔬Technical solution
+
+Hack ArcGIS Layer.[fromArcGISServerUrl](https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-Layer.html#fromArcGISServerUrl) method, return layerName only.
 
 ## 🤝Contributing
 
