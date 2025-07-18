@@ -26,6 +26,12 @@
 
 自行部署后支持离线环境。
 
+**最新**
+
+访问https://geodaoyu.github.io/arcgis-layer-decision-tree/latest.html
+
+ArcGIS CDN版，随ArcGIS JS API更新。没有魔改。只能在线使用。
+
 ## 🔬技术方案
 
 魔改了ArcGIS中Layer.[fromArcGISServerUrl](https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-Layer.html#fromArcGISServerUrl)方法，使其只返回图层类型。

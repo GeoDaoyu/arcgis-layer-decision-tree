@@ -26,6 +26,10 @@ Simply enter your ArcGIS service URL (e.g., `https://services.arcgis.com/.../Map
 
 Support internal network environment after deploying by yourself.
 
+**Latest**
+
+ArcGIS CDN version, upgraded with ArcGIS JS API. No Hack. Online only.
+
 ## 🔬Technical solution
 
 Hack ArcGIS Layer.[fromArcGISServerUrl](https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-Layer.html#fromArcGISServerUrl) method, return layerName only.
