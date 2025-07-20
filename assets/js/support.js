@@ -28,7 +28,6 @@ const mapping = [
   {
     layerName: "IntegratedMesh3DTilesLayer",
     url: "https://tiles.arcgis.com/tiles/0z60TleH1Y2qkUzY/arcgis/rest/services/Stuttgart_WGS84/3DTilesServer/tileset.json",
-    disbled: true,
   },
   {
     layerName: "IntegratedMeshLayer",
